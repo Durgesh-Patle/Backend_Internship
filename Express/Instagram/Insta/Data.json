@@ -1,0 +1,42 @@
+{
+    "Durgesh": {
+        "name": "Durgesh Patle",
+        "post": "10",
+        "bio": "I Love Photography",
+        "followers": "1001",
+        "following": "51",
+        "Profile_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7pe1wjXPNGxd3FL9aHBGdIXdQVvlYGedecCh_dPFO6ms9VIiYY47-BLoz-b4mk-J7rmo&usqp=CAU",
+        "posts": {
+            "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1OmXXKYoI3_DBUvQjezs6wPvvGtqnGuUcmnfdcC0Ifelc-CzoHHSFMCUXz7fJ_1s9X4k&usqp=CAU",
+            "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaSHRQY7fMoQ2Ix_nF_x2X4MCjRiNAcV3pNDFn6cJbJ2Q-XeETvV2lJ6jPeSgCzhdVTlg&usqp=CAU",
+            "image3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7pe1wjXPNGxd3FL9aHBGdIXdQVvlYGedecCh_dPFO6ms9VIiYY47-BLoz-b4mk-J7rmo&usqp=CAU"
+        }
+    },
+    "Abhay": {
+        "name": "Abhay Rahandale",
+        "post": "5",
+        "bio": "I Love Haking",
+        "followers": "1078",
+        "following": "589",
+        "Profile_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnr0QNSrO-hQqOSDcJQs2bNTTjwbegbgSAdQ6J6agouunqduFq_uVRLSAyaQyNmsou8Y&usqp=CAU",
+        "posts": {
+            "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnr0QNSrO-hQqOSDcJQs2bNTTjwbegbgSAdQ6J6agouunqduFq_uVRLSAyaQyNmsou8Y&usqp=CAUk",
+            "image2": "https://miro.medium.com/v2/resize:fit:1280/0*ngAthWxOvKZHvsw9",
+            "image3": "https://img.freepik.com/free-photo/white-notebook-black-data-firewall_1150-1733.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721952000&semt=sph"
+        }
+    },
+
+    "Abhishek": {
+        "name": "Abhishek",
+        "post": "5",
+        "bio": "Data Analytics",
+        "followers": "447",
+        "following": "10",
+        "Profile_pic": "https://m.media-amazon.com/images/S/pv-target-images/3f45cfea260e9fd092200a204f7694477381851324d915bcfc24fd4311a31b19._SX1080_FMjpg_.jpg",
+        "posts": {
+            "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQobDGmARl7lp7jrxG7K5pQN4MrCz-wLnJMdQ&s",
+            "image2": "https://online.york.ac.uk/wp-content/uploads/2021/07/man-in-a-suit-standing-behind-a-hologram-of-data-analytics.jpg",
+            "image3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWBdekReRmDS3DRs1h141nvRnhQHdQr2cyzwVsb6cgTnwIstP5CUfhih1TCuf-eymR0tU&usqp=CAU"
+        }
+    }
+}

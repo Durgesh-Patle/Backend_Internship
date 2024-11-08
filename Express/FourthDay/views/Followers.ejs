@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>UserName : @Bhanu_03 </h1>
+        <h2>Follow List</h2>
+        <%for(let name of followers){%>
+            <li>
+                <%=name%>
+            </li>
+            <%}%>
+                <br>
+                <h2>Following List</h2>
+                <%for(let name of following){%>
+                    <li>
+                        <%=name%>
+                    </li>
+                    <%}%>
+                        <br>
+                        <button>Follow</button>
+                        <button>Message</button>
+    </div>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+{
+    "rose": {
+        "name": "Rose",
+        "followers": "1001",
+        "following": "51",
+        "posts": [
+            {
+                "image": "https://cdn.pixabay.com/photo/2018/01/29/07/11/flower-3115353_640.jpg",
+                "likes": 580,
+                "comments": 75
+            },
+            {
+                "image": "https://img.freepik.com/free-photo/beautiful-rose-nature_23-2150737303.jpg",
+                "likes": 45,
+                "comments": 4
+            },
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7mbQGW0FsIFt6CBNRNq8leay2SIo4QO1nvw&s",
+                "likes": 50,
+                "comments": 111
+            }
+        ]
+    },
+    "Orange": {
+        "name": "Orange",
+        "followers": "9999",
+        "following": "510",
+        "posts": [
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRSpgFufENRffwNG1ICQz-xGdFt85lPd2Oog&s",
+                "likes": 5022,
+                "comments": 430
+            },
+            {
+                "image": "https://m.media-amazon.com/images/I/71MMRj7dEVL._AC_UF1000,1000_QL80_.jpg",
+                "likes": 5134,
+                "comments": 70
+            },
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7mbQGW0FsIFt6CBNRNq8leay2SIo4QO1nvw&s",
+                "likes": 140,
+                "comments": 50
+            }
+        ]
+    }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get and Post</title>
+    <style>
+        /* Add some basic styling to make the form look better */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        form {
+            max-width: 300px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            height: 40px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Add a fade-in animation to the form */
+        .fade-in {
+            animation: fade-in 0.7s ease-in forwards;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+                display: none;
+            }
+
+            100% {
+                opacity: 1;
+                display: block;
+            }
+        }
+
+        /* Add a shake animation to the form when submitted */
+        .shake {
+            animation: shake 0.5s ease-in-out forwards;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateX(0);
+            }
+
+            20% {
+                transform: translateX(-5px);
+            }
+
+            40% {
+                transform: translateX(5px);
+            }
+
+            60% {
+                transform: translateX(-5px);
+            }
+
+            80% {
+                transform: translateX(5px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Get Request</h1>
+    <form action="http://localhost:3000/register" method="get" class="fade-in">
+        <input type="text" name="user" placeholder="Enter Your name.."> 
+        <input type="password" name="password" placeholder="Enter your password..">
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+    <h1>Post Request</h1>
+    <form action="http://localhost:3000/register" method="post" class="fade-in">
+        <input type="text" name="user" placeholder="Enter Your name.."> 
+        <input type="password" name="password" placeholder="Enter Your Password..">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Add a shake animation to the form when submitted
+        const forms = document.querySelectorAll('form');
+        forms.forEach(form => {
+            form.addEventListener('submit', () => {
+                form.classList.add('shake');
+                setTimeout(() => {
+                    form.classList.remove('shake');
+                }, 500);
+            });
+        });
+    </script>
+</body>
+
+</html>

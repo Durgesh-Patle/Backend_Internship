@@ -1,0 +1,26 @@
+<%-include('/include/header.ejs')%>
+<%-include('/include/footer.ejs')%>
+<body>
+    <h1>My Data : <%=data.name%>
+    </h1>
+    <h3>Followarse : <%=data.followers%> &nbsp;&nbsp;&nbsp; Following : <%=data.following%>
+    </h3>
+    <h2>
+        <%for(let post of data.posts){%>
+            <h3>
+                <img src="<%=post.image%>" alt=""><br>
+                <p>Likes : <%=post.likes%> &nbsp;&nbsp;
+                        comments : <%=post.comments%>
+                </p>
+            </h3>
+            <%}%>
+    </h2>
+    <button
+        style="background: royalblue;  color: white; padding: .8rem 3rem; border-radius: 20px; border: 0;"  onclick="{()=>{alert(hello)}}">Follow</button>
+    <button
+        style="background: royalblue;  color: white; padding: .8rem 3rem; border-radius: 20px; border: 0;">Message</button>
+
+        <!-- <script src="/app.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+{
+    "profile": {
+      "username": "johnDoe",
+      "profile_picture": "https://cdn.pixabay.com/photo/2023/04/21/15/42/portrait-7942151_640.jpg",
+      "bio": "Software engineer and coffee enthusiast"
+    },
+    
+    "posts": [
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDo890dsxpB5UCLQFdVBWmK4qVxTrsrLEEUg&s",
+        "caption": "Just had the best coffee of my life!",
+        "likes": 12,
+        "comments": 3
+      },
+      {
+        "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80",
+        "caption": "Hiking in the mountains",
+        "likes": 20,
+        "comments": 5
+      },
+      {
+        "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80",
+        "caption": "New bike day!",
+        "likes": 15,
+        "comments": 2
+      }
+    ]
+  }

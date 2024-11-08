@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="profile">
+        <div class="profile-picture">
+            <img src="<%= profile.profile_picture %>" alt="<%= profile.username %>">
+        </div>
+        <div class="profile-info">
+            <h2>
+                <%= profile.username %>
+            </h2>
+            <p>
+                <%= profile.bio %>
+            </p>
+        </div>
+    </div>
+    
+    <div class="posts">
+        <% posts.forEach(function(post) { %>
+            <div class="post">
+                <img src="<%= profile.image %>" alt="<%= profile.caption %>">
+                <p>
+                    <%= profile.caption %>
+                </p>
+                <p> Likes: <%= profile.likes %> | Comments: <%= profile.comments %>
+                </p>
+            </div>
+            <% }); %>
+    </div>
+</body>
+</html>

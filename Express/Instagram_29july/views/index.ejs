@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Instagram</h1>
+
+    <form action="/add" method="POST" class="add-post-form">
+        <input type="text" name="username" placeholder="Enter Username" required>
+        <input type="text" name="imageUrl" placeholder="Image URL" required>
+        <input type="text" name="Caption" placeholder="Enter Caption" required>
+        <button type="submit">Add Post</button>
+    </form>
+
+    <ul class="post-list">
+        <% posts.forEach((post, index) => { %>
+            <li class="post-item">
+                <h2><%= post.username %></h2>
+                <img src="<%= post.imageUrl %>" alt="<%= post.username %>'s post" class="post-image">
+                <p><%= post.Caption %></p>
+                <form action="/delete" method="POST" class="delete-form">
+                    <input type="hidden" name="index" value="<%= index %>">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        <% }); %>
+    </ul>
+
+    <form action="/?_method=DELETE" method="post" class="delete-all-form">
+        <button type="submit" onclick="return confirm('Are you sure you want to delete all posts?');">Delete All Posts</button>
+    </form>
+    
+        
+</body>
+</html>

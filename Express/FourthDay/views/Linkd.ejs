@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .profile-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 450px;
+            margin: 0 auto;
+            border: 2px solid royalblue;
+        }
+        .profile-picture {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 10px;
+         }
+        .name {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: royalblue;
+        }
+        .job-title {
+            font-size: 1.5em;
+            color: #424141;
+            margin: 1.5rem 0;
+        }
+        .location {
+            font-size: 0.9em;
+            color: #444;
+        }
+        .connections {
+            font-size: 1.2em;
+            margin-top: 1rem;
+            color: #333;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://media.licdn.com/dms/image/D4E03AQGxltbkMNHr2g/profile-displayphoto-shrink_200_200/0/1694968332366?e=2147483647&v=beta&t=y6sH1jdVmU_CtcFEv5X6MBXwZqGwH49TR7QYz84iqA0" alt="John Davis" class="profile-picture">
+        <div class="name">" <%=user%> "</div>
+        <div class="job-title"><%=jtitle%></div>
+        <div class="location">New York, New York</div>
+        <div class="connections"><%=mtConnection%></div>
+    </div>
+</body>
+</html>

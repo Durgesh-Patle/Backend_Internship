@@ -1,0 +1,57 @@
+{
+    "Durgesh": {
+        "name": "Durgesh Patle",
+        "image": "https://media.licdn.com/dms/image/D4D03AQEhwWYhJcX8bQ/profile-displayphoto-shrink_200_200/0/1705828713262?e=2147483647&v=beta&t=KQLh1zV-YroRfaUQidFasGHS_r5ve28sFMkG2pX_7jg",
+        "image1": "https://marketplace.canva.com/EAFaoNNJnss/1/0/1600w/canva-black-blue-white-modern-software-engineer-linkedin-banner-qohikWKOvKI.jpg",
+        "profession": "Software Engineer",
+        "location":"Indore, MP",
+        "connections": "702+",
+        "about" : "Google appeals to candidates from underrepresented groups in the most authentic way",
+        "email" : "dpatle002@text.com",
+        "phone" : "7255-55-2100",
+        "skills": {
+            "a": "Java",
+            "b": "Html/Css",
+            "c" : "Java-Script",
+            "d":"React-Js",
+            "e" : "Node-Js"
+        }
+    },
+   
+    "Abhishek": {
+        "name": "Abhishek Kshirsagar",
+        "image": "https://media.licdn.com/dms/image/D4E03AQGxltbkMNHr2g/profile-displayphoto-shrink_200_200/0/1694968332366?e=2147483647&v=beta&t=y6sH1jdVmU_CtcFEv5X6MBXwZqGwH49TR7QYz84iqA0",
+        "image1": "https://marketplace.canva.com/EAE2cQaUHVA/1/0/1600w/canva-black-minimal-motivation-quote-linkedin-banner-HoRi-2buBWk.jpg",
+        "profession": "Ethical Hacking (Hacker)",
+        "location":"Hydrabad",
+        "connections": "500+",
+        "about" : "Generalizes her recruiting expertise, making herself relevant to other companies",
+        "email" : "abhishek098@outlook.com",
+        "phone" : "625-845-5215",
+        "skills": {
+            "a": "Python",
+            "b": "Artificial Inteligence",
+            "c" : "DataBase",
+            "d":"Larawal",
+            "e" : "Machine Learning"
+        }
+    },
+    "abhay": {
+        "name": "Abhay Rahangadale",
+        "image": "https://media.licdn.com/dms/image/D4D03AQGFgxSQrG1Dhg/profile-displayphoto-shrink_200_200/0/1705988771160?e=2147483647&v=beta&t=49vu_zK3zWkDKXZSNvvxBIEbuFaqWzOYrM0VbVqtgEo",
+        "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlamRje2mpeWp7McRnEeNr9IeB1gcXJb48lKAxyJ_8afd5JytHbiuioPyGYloiH0InPYc&usqp=CAU",
+        "profession": "Data Science Engineer",
+        "location":"Pune",
+        "connections": "400+",
+        "about" : " Magdalena ties her role to bigger-picture impact: Bettering lives around the world",
+        "email" : "abhay@google.com",
+        "phone" : "597-000-1111",
+        "skills": {
+            "a": "C/C++",
+            "b": "Cyber Sequrity",
+            "c" : "MonoDb",
+            "d":"Algoritms",
+            "e" : "Express"
+        }
+    }
+}

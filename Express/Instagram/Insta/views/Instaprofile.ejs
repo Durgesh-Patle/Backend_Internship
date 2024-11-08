@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instagram Profile UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .profile-container {
+            max-width: 440px;
+            height: 440px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow:0 0 10px rgba(79, 237, 6, 0.877);
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            /* border-bottom: 1px solid #ddd; */
+        }
+
+        .profile-picture {
+            width: 180px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        
+        .profile-picture img {
+            height: 140px;
+            width: 140px;
+            border-radius: 50%;
+            margin-top: -15%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            /* flex: 1; */
+            margin-top: -5%;
+        }
+
+        .profile-info h2 {
+            margin-top: -2%;
+        }
+
+        .profile-info p{
+            font-size: 18px;
+			font-weight: 500;
+			margin-top: -5%;
+        }
+
+        .profile-stats {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            /* border-bottom: 1px solid #f4eded; */
+            height: 40px;
+        }
+
+        .stat {
+            text-align: center;
+            margin: -8% 10px;
+        }
+
+        .stat p:first-child {
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        .profile-tabs {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgb(246, 242, 242);
+            border-bottom: 1px solid #ebd9d9;
+        }
+
+        .tab {
+            margin: 0 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .tab:hover {
+            color: #666;
+        }
+
+        .profile-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .grid-item img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="profile-picture">
+                <img src="<%=data.Profile_pic%>" alt="Profile Picture">
+            </div>
+            <div class="profile-info">
+                <h2><%=data.name%></h2>
+                <p><%=data.bio%></p>
+                <a href="#" class="edit-profile">Edit Profile</a>
+            </div>
+        </div>
+		<hr>
+        <div class="profile-stats">
+            <div class="stat">
+                <p><%=data.post%></p>
+                <p>Post</p>
+            </div>
+            <div class="stat">
+                <p><%=data.followers%></p>
+                <p>Followers</p>
+            </div>
+            <div class="stat">
+                <p><%=data.following%></p>
+                <p>Following</p>
+            </div>
+        </div>
+		<hr>
+        <div class="profile-tabs">
+            <a href="#" class="tab">Posts</a>
+            <a href="#" class="tab">IGTV</a>
+            <a href="#" class="tab">Saved</a>
+            <a href="#" class="tab">Tagged</a>
+        </div>
+		<div class="profile-grid">
+			<div class="grid-item">
+				<img src="<%=data.posts.image1%>" alt="Post 1">
+            </div>
+            <div class="grid-item">
+				<img src="<%=data.posts.image2%>" alt="Post 2">
+            </div>
+            <div class="grid-item">
+				<img src="<%=data.posts.image3%>" alt="Post 3">
+            </div>
+            <!-- Add more grid items here -->
+		</div>
+        </div>
+</body>
+
+</html>
